@@ -2,22 +2,33 @@
 {
   font-family: 'b titr';
   color: black;
+  text-align: center;
 }
 #matn
 {
+  text-align: center;
   color: rgb(0, 0, 0);
   font-family: 'b zar'; 
   font-size: 23px; 
+
 }
-.mybutton{
+.mybutton{   
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 203.5vh;  
+  font-family: 'B Tabassom';
   background-color:#2196F3;
   border:none;
   border-radius:7px;
   color:white;
   padding:10px 25px;
   text-align:center;
-  font-size:16px;
+  font-size:22px;
   cursor:pointer;
+
+
  }
   
  .mybutton:hover{
@@ -30,3 +41,200 @@
   border-bottom: solid;
   border-bottom-color: darkolivegreen;
 }
+.mybutton1{
+  background-color:#d6cece;
+  border:none;
+  border-radius:7px;
+  color:rgb(0, 0, 0);
+  padding:10px 25px;
+  text-align:center;
+  font: size 18px;
+  cursor:pointer;
+ }
+  
+ .mybutton1:hover{
+  background-color:#bdbcbc;
+ }
+ .mybutton2{
+  background-color:#d6cece;
+  border:none;
+  border-radius:7px;
+  color:rgb(0, 0, 0);
+  padding:10px 25px;
+  text-align:center;
+  font: size 18px;
+  cursor:pointer;
+ }
+  
+ .mybutton2:hover{
+  background-color:#bdbcbc;
+ }
+ #noheh
+ {
+  max-width: 80%; /* حداکثر عرض عکس */
+  max-height: 80%; /* حداکثر ارتفاع عکس */
+  border: 13px solid white; /* حاشیه سفید */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* سایه برای زیبایی */
+  border-radius:12px;
+  padding: 50px 70px;
+  background-image: url('https://s6.uupload.ir/files/beautiful-color-ui-gradients-backgrounds-s--blue_3euf.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'B Mehr';
+  font: size 21px;
+  color: rgb(255, 207, 207);
+  
+
+ }
+ #idtele
+ {
+  font-family: 'Bahnschrift SemiBold Condensed';
+  font: size 29px;
+ }
+ #mosayyebi110
+ {
+  font-family: 'Barlow Condensed Light';
+  font: size 19px;
+  color: rgb(96, 138, 253);
+ }
+ #upload
+ {
+  font-family: 'B Bardiya';
+  font: size 23px;
+  color: rgb(97, 81, 81);
+ }
+ #upload:hover
+ {
+  color: rgb(31, 31, 31);
+  background-color: rgb(247, 247, 247);
+  border:none;
+  border-radius:7px;
+  padding:5px 18px;
+ }
+ #ms
+ {
+  border-bottom: solid;
+  border-bottom-color: aqua;
+ }
+ #mss
+ {
+  border-bottom: solid;
+  border-bottom-color: aqua;
+ }
+ #mo
+ {
+  border-radius:10px;
+  border-bottom: solid;
+  border-width: 6px;
+  border-bottom-color: #505050;
+ }
+ #op
+ {
+  background-image: url('https://s6.uupload.ir/files/preview_yq4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+ .mybutton3
+ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 203.5vh;  
+
+  font-family: 'B Tabassom';
+  background-color:#58cefd;
+  border:none;
+  border-radius:7px;
+  color:rgb(255, 255, 255);
+  padding:10px 25px;
+  text-align:center;
+  font-size: 21px;
+  cursor:pointer;
+ }
+ .mybutton3:hover{
+  background-color:hsl(177, 100%, 89%);
+ }
+ #mossa
+ {
+  color: aliceblue;
+  font-family: 'B Bardiya';
+  font-size: 23px;
+  text-align: center;
+ }
+ #mosayyeb
+ {
+  color: aliceblue;
+  font-family: 'B Bardiya';
+  font-size: 23px;
+  text-align: center;
+ }
+ #darbare
+ {
+  color: aliceblue;
+  font-family: 'B Bardiya';
+  font-size: 25px;
+ }
+ #mat
+ {
+  color: aliceblue;
+  font-family: 'B Bardiya';
+  font-size: 23px;
+ }
+ #mat2
+ {
+  color: aliceblue;
+  font-family: 'B Bardiya';
+  font-size: 23px;
+ }
+ #aks
+ {
+  justify-content: center; /* فاصله بین عکس‌ها را تنظیم می‌کند */
+  gap: 30px;
+  display: inline-block;
+  height: 547px;
+  width: 650px;
+  border-radius:18px;
+ }
+ #aks1
+ {
+  justify-content: center; /* فاصله بین عکس‌ها را تنظیم می‌کند */
+  gap: 30px;
+  display: inline-block;
+  width: 559px;
+  height: 552px;
+  border-radius:26px;
+  background-color: aquamarine;
+ }
+ #fas
+ {
+  color: aliceblue;
+  border-bottom: solid;
+  border-bottom-color: black;
+ }
+ .body
+ {
+  background-image: url("https://s6.uupload.ir/files/cba8c85a56cb0e7d550bc856898b0f7c_6a8l.jpeg");
+ }
+ /* برای موبایل‌ها */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* برای تبلت‌ها */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* برای دسکتاپ‌ها */
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: lightyellow;
+  }
+}
+ 
